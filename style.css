@@ -207,6 +207,7 @@ input[type=email]{
     color:grey;
     font-size:1.2rem;
     margin-top:15px; 
+    position: relative;
 }
 input[type=password]{
     font-size:1.5rem;
@@ -225,6 +226,13 @@ input[type=password]{
     font-size: 1.2rem;
     font-weight: 20px;
     margin-left:190px;
+}
+.eyebtn{
+    position:absolute;
+    bottom:12px;
+    left:300px;
+    border:none;
+    background:none;
 }
 .btn{
     /* border:1px solid pink; */
